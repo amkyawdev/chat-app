@@ -1,0 +1,53 @@
+/* GroupInfo component styles */
+.group-info {
+  padding: 16px;
+}
+
+.group-avatar {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+.group-info h3 {
+  margin: 0 0 8px;
+  text-align: center;
+  color: #111827;
+  font-size: 18px;
+}
+
+.group-info .description {
+  margin: 0 0 16px;
+  text-align: center;
+  font-size: 14px;
+  color: #6b7280;
+}
+
+.info-stats {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 16px;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stat-value {
+  font-size: 18px;
+  font-weight: 600;
+  color: #111827;
+}
+
+.stat-label {
+  font-size: 12px;
+  color: #6b7280;
+}
+
+.info-actions {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}

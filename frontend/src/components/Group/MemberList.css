@@ -1,0 +1,56 @@
+/* MemberList component styles */
+.member-list {
+  padding: 16px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.member-list h4 {
+  margin: 0 0 12px;
+  font-size: 14px;
+  color: #6b7280;
+  font-weight: 500;
+}
+
+.member-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.member-list li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background 0.2s;
+}
+
+.member-list li:hover {
+  background: #f3f4f6;
+}
+
+.member-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.member-name {
+  font-weight: 500;
+  color: #111827;
+  font-size: 14px;
+}
+
+.member-role {
+  font-size: 12px;
+  color: #6b7280;
+}
+
+.member-role.role-admin {
+  color: #ef4444;
+}
+
+.member-role.role-co_admin {
+  color: #f59e0b;
+}
