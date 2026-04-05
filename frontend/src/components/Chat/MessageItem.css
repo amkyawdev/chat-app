@@ -1,0 +1,89 @@
+/* MessageItem component styles */
+.message-item {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 8px;
+  position: relative;
+}
+
+.message-item.own {
+  flex-direction: row-reverse;
+}
+
+.message-item.own .message-bubble {
+  background: #6366f1;
+  color: white;
+  border-bottom-right-radius: 4px;
+}
+
+.message-item.other .message-bubble {
+  background: #f3f4f6;
+  color: #1f2937;
+  border-bottom-left-radius: 4px;
+}
+
+.message-avatar {
+  flex-shrink: 0;
+}
+
+.message-content {
+  max-width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+
+.message-item.other .message-content {
+  align-items: flex-start;
+}
+
+.message-item.own .message-content {
+  align-items: flex-end;
+}
+
+.sender-name {
+  font-size: 12px;
+  color: #6b7280;
+  margin-bottom: 4px;
+  margin-left: 4px;
+}
+
+.message-bubble {
+  padding: 10px 14px;
+  border-radius: 16px;
+  word-wrap: break-word;
+}
+
+.message-text {
+  margin: 0;
+  line-height: 1.4;
+  white-space: pre-wrap;
+}
+
+.message-image {
+  max-width: 250px;
+  border-radius: 8px;
+}
+
+.deleted-message {
+  font-style: italic;
+  color: #9ca3af;
+  font-size: 13px;
+}
+
+.message-meta {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-top: 4px;
+  padding: 0 4px;
+}
+
+.message-time {
+  font-size: 11px;
+  color: #9ca3af;
+}
+
+.message-status {
+  font-size: 12px;
+  color: #9ca3af;
+}
